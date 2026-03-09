@@ -13,6 +13,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
+            Text("tests")
             ForEach(vm.items) { item in
                 Button{
                     vm.removeLast()
